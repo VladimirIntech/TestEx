@@ -13,7 +13,7 @@ public class Test4 extends Web_Driver {
         po4.pg3f();
         w4.waitTime(2);
         po4.pg4f();
-        w4.waitTime(2);
+
         po4.pg2();
         w4.waitTime(1);
         po4.pg5f();

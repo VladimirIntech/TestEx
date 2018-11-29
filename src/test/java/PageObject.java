@@ -1,6 +1,7 @@
 import com.sun.glass.events.MouseEvent;
 import org.junit.Assert;
 import org.openqa.selenium.By;
+import org.openqa.selenium.Point;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Action;
 import org.openqa.selenium.interactions.Actions;
@@ -57,10 +58,14 @@ public class PageObject extends Web_Driver {
     @FindBy(xpath = "//label[@for='beautiful2']")
     private WebElement ch12;
 
+
+    //Ссылки
     @FindBy(xpath = "//a[text()='hr@csssr.com']")
     private WebElement ahr1;
     @FindBy(xpath = "//a[text()='vk.com/csssr']")
     private WebElement ahr2;
+    @FindBy(xpath = "//a[text()='Софт для быстрого создания скриншотов']")
+    private WebElement ahr3;
 
     public void pg1() {
         pg1.click();
@@ -149,46 +154,53 @@ public class PageObject extends Web_Driver {
     public void pg1f() {
         //Наведение курсора на объект страницы
         Actions action = new Actions(driver);
-action.moveToElement(pg1);
+        action. moveToElement(pg1).build().perform();
+
+
 
     }
+
     public void pg2f() {
         //Наведение курсора на объект страницы
         Actions action = new Actions(driver);
-        action.moveToElement(pg2);
+        action.moveToElement(pg2).build().perform();
 
     }
+
     public void pg3f() {
         //Наведение курсора на объект страницы
         Actions action = new Actions(driver);
-        action.moveToElement(pg3);
+        action.moveToElement(pg3).build().perform();
 
     }
+
     public void pg4f() {
         //Наведение курсора на объект страницы
         Actions action = new Actions(driver);
-        action.moveToElement(pg4);
+        action.moveToElement(pg4).build().perform();
 
     }
+
     public void pg5f() {
         //Наведение курсора на объект страницы
         Actions action = new Actions(driver);
-        action.moveToElement(ch6_1);
+        action.moveToElement(ahr3).build().perform();
 
     }
+
     public void pg6f() {
         //Наведение курсора на объект страницы
         Actions action = new Actions(driver);
-        action.moveToElement(ahr1);
+        action.moveToElement(ahr1).build().perform();
 
     }
+
     public void pg7f() {
         //Наведение курсора на объект страницы
         Actions action = new Actions(driver);
-        action.moveToElement(ahr2);
+        action.moveToElement(ahr2).build().perform();
 
     }
-
 
 
 }
