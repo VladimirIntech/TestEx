@@ -1,0 +1,15 @@
+[1129/142609.197:ERROR:process_reader_win.cc(182)] ResumeThread: Параметр задан неверно. (0x57)
+[1129/142609.199:ERROR:process_reader_win.cc(151)] SuspendThread: Отказано в доступе. (0x5)
+[1129/142609.199:ERROR:process_reader_win.cc(151)] SuspendThread: Отказано в доступе. (0x5)
+[1129/142609.200:ERROR:process_reader_win.cc(151)] SuspendThread: Отказано в доступе. (0x5)
+[1129/142609.200:ERROR:process_reader_win.cc(151)] SuspendThread: Отказано в доступе. (0x5)
+[1129/142609.200:ERROR:process_reader_win.cc(151)] SuspendThread: Отказано в доступе. (0x5)
+[1129/142609.200:ERROR:process_reader_win.cc(151)] SuspendThread: Отказано в доступе. (0x5)
+[1129/142609.200:ERROR:process_reader_win.cc(151)] SuspendThread: Отказано в доступе. (0x5)
+[1129/142609.201:ERROR:process_reader_win.cc(151)] SuspendThread: Отказано в доступе. (0x5)
+[1129/142609.201:ERROR:process_reader_win.cc(151)] SuspendThread: Отказано в доступе. (0x5)
+[1129/142609.201:ERROR:process_reader_win.cc(151)] SuspendThread: Отказано в доступе. (0x5)
+[1129/142609.201:ERROR:process_reader_win.cc(151)] SuspendThread: Отказано в доступе. (0x5)
+[1129/142609.201:ERROR:process_reader_win.cc(151)] SuspendThread: Отказано в доступе. (0x5)
+[1129/142609.201:ERROR:exception_snapshot_win.cc(88)] thread ID 11344 not found in process
+[1129/160059.702:ERROR:process_info.cc(359)] UncheckedAllocate
